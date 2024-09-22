@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="core\buttons\buttons.cpp">
+      <Filter>core\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="core\controls\controls.cpp">
+      <Filter>core\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="core\draw\drawing.cpp">
+      <Filter>core\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="core\menu\script.cpp">
+      <Filter>core\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ui\gui.cpp" />
+    <ClCompile Include="view\mainmenuview.cpp" />
+    <ClCompile Include="feature\local\localloop.cpp" />
+    <ClCompile Include="feature\local\localfeatures.cpp" />
+    <ClCompile Include="feature\global\entity\entity.cpp" />
+    <ClCompile Include="core\math\math.cpp" />
+    <ClCompile Include="feature\global\player\player.cpp" />
+    <ClCompile Include="view\localview.cpp" />
+    <ClCompile Include="feature\local\wantedlevel.cpp" />
+    <ClCompile Include="feature\local\localfeatures.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="core\buttons\buttons.h">
+      <Filter>core\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="core\controls\controls.h">
+      <Filter>core\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="core\draw\drawing.h">
+      <Filter>core\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\script.h">
+      <Filter>core\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ui\gui.h" />
+    <ClInclude Include="ScriptHook\inc\types.h" />
+    <ClInclude Include="ScriptHook\inc\enums.h" />
+    <ClInclude Include="ScriptHook\inc\main.h" />
+    <ClInclude Include="ScriptHook\inc\nativeCaller.h" />
+    <ClInclude Include="ScriptHook\inc\natives.h" />
+    <ClInclude Include="ScriptHook\inc\MinHook\MinHook.h" />
+    <ClInclude Include="core\math\math.h" />
+    <ClInclude Include="feature\global\entity\entity.h" />
+    <ClInclude Include="feature\global\player\player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{fe82bd4a-2d14-486a-8be5-8bf6b50a2414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{b0210a86-83eb-4c1d-bf3c-9af3e3639feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{b7cd2134-e5d2-4c17-bcad-f67a620f6dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\controls">
+      <UniqueIdentifier>{773e5ca6-2848-42b1-8e55-6c5f6bd56c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\buttons">
+      <UniqueIdentifier>{e350d626-29d8-4715-a35b-f29f96e6f2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\UI">
+      <UniqueIdentifier>{f13a7a16-9c3e-43c8-8199-1a72942fe4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\draw">
+      <UniqueIdentifier>{9657f7d3-5d55-4530-863f-2b30871d841d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\Main">
+      <UniqueIdentifier>{5e9b9f45-37ed-4eb0-a6b3-f401600c50ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu">
+      <UniqueIdentifier>{a800f116-a1e3-4311-b47b-93e6a8c30643}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ScriptHook\inc\MinHook\libMinHook.x64.lib" />
+    <Library Include="ScriptHook\lib\ScriptHookRDR2.lib" />
+  </ItemGroup>
+</Project>
